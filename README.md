@@ -1,2 +1,2 @@
-# MoreTurretsMod
-This mod simply adds more turrets with different mechanics and you can use them to  improve your defense.
+# *[More Turrets Mod]
+# *This mod adds various turrets to the game. Each turret is simple and has different mechanics. Use these turrets to improve your defense!
