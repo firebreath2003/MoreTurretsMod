@@ -11,11 +11,11 @@ size: 4
 group: turrets
 priority: turret
 requirements: [
-  copper/300
-  graphite/250
-  thorium/200
-  plastanium/100
-  surge-alloy/200
+  copper/400
+  graphite/300
+  thorium/225
+  plastanium/150
+  surge-alloy/225
 ]
 category: turret
 layer: turret
