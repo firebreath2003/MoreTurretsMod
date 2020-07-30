@@ -10,13 +10,13 @@ health: 2800
 size: 4
 group: turrets
 priority: turret
-requirements: {
+requirements: [
   copper/300
   graphite/250
   thorium/200
   plastanium/100
   surge-alloy/200
-}
+]
 category: turret
 layer: turret
 shootSound: shootBig
