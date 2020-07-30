@@ -21,14 +21,14 @@ category: turret
 layer: turret
 ammoUseEffect: shellEjectBig
 shootSound: shootBig
-range: 220
+range: 280
 reload: 3
 inaccuracy: 25
 recoil: 3
 restitution: 0.1
 shootShake: 3
 xRand: 7.5
-coolantMultiplier: 2.0
+coolantMultiplier: 2
 ammo: {
   graphite: standardDenseBig
   thorium: standardThoriumBig
