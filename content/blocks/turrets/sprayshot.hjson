@@ -30,3 +30,4 @@ ammo: {
   graphite: standardDenseBig
   thorium: standardThoriumBig
   pyratite: standardIncendiaryBig
+}
