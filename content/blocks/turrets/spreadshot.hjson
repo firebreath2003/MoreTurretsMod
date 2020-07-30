@@ -3,24 +3,10 @@ name: Spreadshot
 description: A massive burst cannon. Spreads large projectiles around. Targets both air and ground units. Generally good against swarms of enemies.
 hasItems: true
 itemCapacity: 15
-liquidCapacity: 30
-consumes: {
-  liquid: {
-    liquid: water
-    amount: 150
-    booster: true
-    optional: true
-  }
-  liquid: {
-    liquid: cryofluid
-    amount: 100
-    booster: true
-    optional: true
-  }
-}
+liquidCapacity: 20
 update: true
 solid: true
-health: 2830
+health: 2840
 size: 4
 group: turrets
 priority: turret
@@ -40,9 +26,9 @@ reload: 3
 inaccuracy: 25
 recoil: 3
 restitution: 0.1
-coolantMultiplier: 1.5
 shootShake: 3
 xRand: 7.5
+coolantMultiplier: 2.0
 ammo: {
   graphite: standardDenseBig
   thorium: standardThoriumBig
