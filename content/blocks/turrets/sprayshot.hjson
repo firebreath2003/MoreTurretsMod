@@ -2,7 +2,7 @@ type: ItemTurret
 name: Sprayshot
 description: Sprays large projectiles around. Good against swarms.
 hasItems: true
-itemCapacity: 20
+itemCapacity: 15
 liquidCapacity: 20
 update: true
 solid: true
@@ -19,13 +19,16 @@ requirements: [
 ]
 category: turret
 layer: turret
+ammoUseEffect: shellEjectBig
 shootSound: shootBig
 range: 200
 reload: 3
 inaccuracy: 30
 recoil: 3
 restitution: 0.1
-coolantMultiplier: 0.5
+coolantMultiplier: 0.8
+shootShake: 3
+xRand: 5
 ammo: {
   graphite: standardDenseBig
   thorium: standardThoriumBig
