@@ -11,6 +11,8 @@ consumes: {
     amount: 2.5
     optional: false
     booster: false
+  }
+}
 update: true
 solid: true
 health: 3020
@@ -153,5 +155,5 @@ ammo: {
      frontColor: lightishOrange
      backColor: lightOrange
      trailEffect: incendTrail
-   }
+  }
 }
