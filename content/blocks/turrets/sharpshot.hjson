@@ -153,3 +153,5 @@ ammo: {
      frontColor: lightishOrange
      backColor: lightOrange
      trailEffect: incendTrail
+   }
+}
