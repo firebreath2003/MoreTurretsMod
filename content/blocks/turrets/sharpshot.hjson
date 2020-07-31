@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Sharpshot
-description: A massive sniper rifle. Shoots a large and shredding projectile over a long period. Requires cryofluid as a coolant.
+description: A massive sniper turret. Shoots a large and shredding projectile over a long period. Requires cryofluid as a coolant.
 hasItems: true
 hasLiquids: true
 itemCapacity: 1
