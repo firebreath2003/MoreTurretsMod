@@ -6,11 +6,17 @@ itemCapacity: 20
 liquidCapacity: 20
 consumes: {
   liquid: {
+    liquid: water
+    amount: 1.5
+    optional: true
+    booster: true
+  }
+  liquid: {
     liquid: cryofluid
     amount: 1.5
+    optional: true
+    booster: true
   }
-  optional: true
-  booster: true
 }
 update: true
 solid: true
