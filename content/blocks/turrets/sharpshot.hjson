@@ -3,7 +3,7 @@ name: Sharpshot
 description: A massive sniper turret. Shoots a large and shredding projectile over a long period. Requires cryofluid as a coolant.
 hasItems: true
 hasLiquids: true
-itemCapacity: 1
+itemCapacity: 5
 liquidCapacity: 30
 consumes: {
   liquid: {
@@ -31,22 +31,22 @@ category: turret
 layer: turret
 shootEffect: shootBig
 ammoUseEffect: shellEjectBig
-shootSound: explosion
+shootSound: explosionbig
 range: 400
 reload: 300
 recoil: 6
 restitution: 4
-shootCone: 1
+shootCone: 3
 cooldown: 4
 shootShake: 20
 coolantMultiplier: 0
-maxAmmo: 1
+maxAmmo: 5
 ammo: {
   graphite: {
     type: ArtilleryBulletType
     lifetime: 9999
     speed: 100
-    damage: 3000
+    damage: 4000
     hitsize: 7
     hitEffect: flakExplosion
     shootEffect: shootBig
@@ -67,93 +67,21 @@ ammo: {
     bulletWidth: 16
     bulletHeight: 23
   }
-  silicon: {
+  pyratite: {
     type: ArtilleryBulletType
     lifetime: 9999
     speed: 100
-    damage: 4000
+    damage: 5000
     hitsize: 7
-    hitEffect: flakExplosion
+    hitEffect: blastExplosion
     shootEffect: shootBig
-    knockback: 6
+    knockback: 6.5
+    status: burning
     collidesTiles: false
-    homingPower: 10
     bulletWidth: 15
     bulletHeight: 21
-  }
-  plastanium: {
-    type: ArtilleryBulletType
-    lifetime: 9999
-    speed: 100
-    damage: 3500
-    hitsize: 7
-    hitEffect: plasticExplosion
-    shootEffect: shootBig
-    knockback: 5.5
-    collidesTiles: false
-    fragBullets: 3
-    fragVelocityMin: 1
-    fragBullet: {
-      type: BasicBulletType
-      lifetime: 2
-      speed: 40
-      damage: 1000
-      hitsize: 2.3
-      hitEffect: plasticExplosion
-      despawnEffect: none
-      knockback: 1.83
-      bulletShrink: 1
-      frontColor: plastaniumFront
-      backColor: plastaniumBack
-    }
-    bulletWidth: 15
-    bulletHeight: 21
-    frontColor: plastaniumFront
-    backColor: plastaniumBack
-  }
-  surge-alloy: {
-     type: BasicBulletType
-     lifetime: 9999
-     speed: 100
-     damage: 5500
-     hitsize: 8
-     hitEffect: flakExplosion
-     shootEffect: shootBig
-     knockback: 7.5
-     status: shocked
-     bulletWidth: 16
-     bulletHeight: 23
-   }
-   blast-compound: {
-     type: ArtilleryBulletType
-     lifetime: 9999
-     speed: 1000
-     damage: 5000
-     hitsize: 8
-     hitEffect: blastExplosion
-     shootEffect: shootBig
-     knockback: 7
-     collidesTiles: false
-     bulletWidth: 16
-     bulletHeight: 23
-     frontColor: missleYellow
-     backColor: missleYellowBack
-   }
-   pyratite: {
-     type: ArtilleryBulletType
-     lifetime: 9999
-     speed: 100
-     damage: 4500
-     hitsize: 7
-     hitEffect: blastExplosion
-     shootEffect: shootBig
-     knockback: 6.5
-     status: burning
-     collidesTiles: false
-     bulletWidth: 15
-     bulletHeight: 21
-     frontColor: lightishOrange
-     backColor: lightOrange
-     trailEffect: incendTrail
+    frontColor: lightishOrange
+    backColor: lightOrange
+    trailEffect: incendTrail
   }
 }
