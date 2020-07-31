@@ -21,7 +21,7 @@ category: turret
 layer: turret
 ammoUseEffect: shellEjectBig
 shootSound: shootBig
-range: 260
+range: 280
 reload: 3
 inaccuracy: 25
 recoil: 3
@@ -33,3 +33,4 @@ ammo: {
   graphite: standardDenseBig
   thorium: standardThoriumBig
   pyratite: standardIncendiaryBig
+}
