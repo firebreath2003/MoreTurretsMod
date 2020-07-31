@@ -34,9 +34,8 @@ ammoUseEffect: shellEjectBig
 shootSound: explosionbig
 range: 400
 reload: 300
-recoil: 6
-restitution: 4
-cooldown: 4
+recoil: 3
+restitution: 0.1
 rotatespeed: 10
 shootCone: 1
 shootShake: 6
@@ -48,7 +47,7 @@ ammo: {
     lifetime: 999
     speed: 100
     damage: 3000
-    hitsize: 8
+    hitSize: 8
     hitEffect: explosion
     despawnEffect: smoke
     shootEffect: shootBig
@@ -67,8 +66,9 @@ ammo: {
     lifetime: 999
     speed: 100
     damage: 5000
-    hitsize: 8
+    hitSize: 8
     hitEffect: explosion
+    despawnEffect: smoke
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     hitSound: explosion
@@ -85,8 +85,9 @@ ammo: {
     lifetime: 999
     speed: 100
     damage: 4000
-    hitsize: 8
+    hitSize: 8
     hitEffect: blastExplosion
+    despawnEffect: smoke
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     hitSound: explosion
