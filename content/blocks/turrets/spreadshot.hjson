@@ -49,7 +49,6 @@ ammo: {
     despawnEffect: smoke
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    hitSound: explosion
     knockback: 0.5
     bulletWidth: 16
     bulletHeight: 23
@@ -64,7 +63,6 @@ ammo: {
     despawnEffect: smoke
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    hitSound: explosion
     knockback: 1.5
     bulletWidth: 16
     bulletHeight: 23
@@ -75,13 +73,15 @@ ammo: {
     speed: 60
     damage: 40
     hitSize: 8
-    hitEffect: explosion
+    hitEffect: blastExplosion
     despawnEffect: smoke
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    hitSound: explosion
     knockback: 1
+    status: burning
     bulletWidth: 16
     bulletHeight: 23
+    frontColor: lightishOrange
+    backColor: lightOrange
   }
 }
