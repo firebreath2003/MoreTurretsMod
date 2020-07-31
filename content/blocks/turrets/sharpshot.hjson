@@ -1,4 +1,4 @@
-type: ItemTurret
+type: ArtilleryTurret
 name: Sharpshot
 description: A massive sniper turret. Shoots a large and shredding projectile over a long period. Requires cryofluid as a coolant.
 hasItems: true
@@ -42,6 +42,7 @@ rotatespeed: 10
 shootCone: 1
 shootShake: 6
 coolantMultiplier: 0
+targetsAir: false
 ammo: {
   graphite: {
     type: ArtilleryBulletType
@@ -55,11 +56,15 @@ ammo: {
     smokeEffect: shootBigSmoke
     hitSound: explosion
     knockback: 4
+    collidesTiles: false
+    collidesAir: false
+    collides: false
+    hitShake: 1
     bulletWidth: 16
     bulletHeight: 23
   }
   thorium: {
-    type: BasicBulletType
+    type: ArtilleryBulletType
     lifetime: 999
     speed: 100
     damage: 5000
@@ -69,6 +74,10 @@ ammo: {
     smokeEffect: shootBigSmoke
     hitSound: explosion
     knockback: 8
+    collidesTiles: false
+    collidesAir: false
+    collides: false
+    hitShake: 1
     bulletWidth: 16
     bulletHeight: 23
   }
@@ -84,6 +93,10 @@ ammo: {
     hitSound: explosion
     knockback: 6
     status: burning
+    collidesTiles: false
+    collidesAir: false
+    collides: false
+    hitShake: 1
     bulletWidth: 16
     bulletHeight: 23
     frontColor: lightishOrange
