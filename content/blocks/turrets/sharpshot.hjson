@@ -31,7 +31,7 @@ category: turret
 layer: turret
 shootEffect: shootBigSmoke2
 ammoUseEffect: shellEjectBig
-shootSound: explosionBig
+shootSound: explosionbig
 range: 400
 reload: 300
 recoil: 6
@@ -40,14 +40,13 @@ shootCone: 5
 cooldown: 4
 shootShake: 10
 coolantMultiplier: 0
-coolEffect: shootBigSmoke2
 ammo: {
   graphite: {
     type: ArtilleryBulletType
     lifetime: 9999
     speed: 100
     damage: 3000
-    hitsize: 7
+    hitsize: 14
     hitEffect: flakExplosion
     shootEffect: shootBig
     knockback: 5
@@ -60,7 +59,7 @@ ammo: {
     lifetime: 9999
     speed: 100
     damage: 6000
-    hitsize: 8
+    hitsize: 16
     hitEffect: flakExplosion
     shootEffect: shootBig
     knockback: 8
@@ -72,7 +71,7 @@ ammo: {
     lifetime: 9999
     speed: 100
     damage: 4000
-    hitsize: 7
+    hitsize: 14
     hitEffect: flakExplosion
     shootEffect: shootBig
     knockback: 6
@@ -86,7 +85,7 @@ ammo: {
     lifetime: 9999
     speed: 100
     damage: 3500
-    hitsize: 7
+    hitsize: 14
     hitEffect: plasticExplosion
     shootEffect: shootBig
     knockback: 5.5
@@ -98,7 +97,7 @@ ammo: {
       lifetime: 2
       speed: 40
       damage: 1000
-      hitsize: 2.3
+      hitsize: 4.6
       hitEffect: plasticExplosion
       despawnEffect: none
       knockback: 1.83
@@ -116,11 +115,11 @@ ammo: {
      lifetime: 9999
      speed: 100
      damage: 5500
-     hitsize: 8
+     hitsize: 16
      hitEffect: flakExplosion
      shootEffect: shootBig
      knockback: 7.5
-     status: shock
+     status: shocking
      bulletWidth: 16
      bulletHeight: 23
    }
@@ -132,7 +131,7 @@ ammo: {
      hitsize: 8
      hitEffect: blastExplosion
      shootEffect: shootBig
-     knockback: 7
+     knockback: 14
      collidesTiles: false
      bulletWidth: 16
      bulletHeight: 23
@@ -144,7 +143,7 @@ ammo: {
      lifetime: 9999
      speed: 100
      damage: 4500
-     hitsize: 7
+     hitsize: 14
      hitEffect: blastExplosion
      shootEffect: shootBig
      knockback: 6.5
