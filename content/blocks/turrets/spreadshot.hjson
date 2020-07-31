@@ -2,7 +2,6 @@ type: ItemTurret
 name: Spreadshot
 description: A massive burst cannon. Spreads large projectiles around. Targets both air and ground units. Generally good against swarms of enemies.
 hasItems: true
-itemCapacity: 20
 liquidCapacity: 20
 consumes: {
   liquid: {
@@ -27,6 +26,8 @@ requirements: [
 ]
 category: turret
 layer: turret
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
 ammoUseEffect: shellEjectBig
 shootSound: shootBig
 range: 240
@@ -38,7 +39,49 @@ shootShake: 3
 xRand: 7.5
 coolantMultiplier: 0.6
 ammo: {
-  graphite: standardDenseBig
-  thorium: standardThoriumBig
-  pyratite: standardIncendiaryBig
+  graphite: {
+    type: BasicBulletType
+    lifetime: 4
+    speed: 60
+    damage: 30
+    hitSize: 8
+    hitEffect: explosion
+    despawnEffect: smoke
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitSound: explosion
+    knockback: 0.5
+    bulletWidth: 16
+    bulletHeight: 23
+  }
+  thorium: {
+    type: BasicBulletType
+    lifetime: 4
+    speed: 60
+    damage: 50
+    hitSize: 8
+    hitEffect: explosion
+    despawnEffect: smoke
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitSound: explosion
+    knockback: 1.5
+    bulletWidth: 16
+    bulletHeight: 23
+  }
+  pyratite: {
+    type: BasicBulletType
+    lifetime: 4
+    speed: 60
+    damage: 40
+    hitSize: 8
+    hitEffect: explosion
+    despawnEffect: smoke
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitSound: explosion
+    knockback: 1
+    bulletWidth: 16
+    bulletHeight: 23
+  }
 }
