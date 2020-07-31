@@ -30,54 +30,61 @@ requirements: [
 category: turret
 layer: turret
 shootEffect: shootBig
+smokeEffect: shootBigSmoke
 ammoUseEffect: shellEjectBig
 shootSound: explosionbig
 range: 400
 reload: 300
 recoil: 6
 restitution: 4
-shootCone: 3
+shootCone: 1
 cooldown: 4
-shootShake: 20
+rotatespeed: 15
+shootShake: 6
 coolantMultiplier: 0
 maxAmmo: 5
 ammo: {
   graphite: {
     type: ArtilleryBulletType
-    lifetime: 9999
-    speed: 100
-    damage: 4000
+    lifetime: 999
+    speed: 80
+    damage: 3000
     hitsize: 7
-    hitEffect: flakExplosion
+    hitEffect: explosion
+    despawnEffect: smoke
     shootEffect: shootBig
-    knockback: 5
-    collidesTiles: false
+    smokeEffect: shootBigSmoke
+    hitSound: explosion
+    knockback: 4
     bulletWidth: 15
     bulletHeight: 21
   }
   thorium: {
     type: BasicBulletType
-    lifetime: 9999
-    speed: 100
-    damage: 6000
+    lifetime: 999
+    speed: 80
+    damage: 5000
     hitsize: 8
-    hitEffect: flakExplosion
+    hitEffect: explosion
     shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    hitSound: explosion
     knockback: 8
     bulletWidth: 16
     bulletHeight: 23
   }
   pyratite: {
     type: ArtilleryBulletType
-    lifetime: 9999
-    speed: 100
-    damage: 5000
+    lifetime: 999
+    speed: 80
+    damage: 4000
     hitsize: 7
     hitEffect: blastExplosion
     shootEffect: shootBig
-    knockback: 6.5
+    smokeEffect: shootBigSmoke
+    hitSound: explosion
+    knockback: 6
     status: burning
-    collidesTiles: false
     bulletWidth: 15
     bulletHeight: 21
     frontColor: lightishOrange
