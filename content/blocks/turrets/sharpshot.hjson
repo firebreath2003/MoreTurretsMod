@@ -45,7 +45,7 @@ ammo: {
   graphite: {
     type: ArtilleryBulletType
     lifetime: 9999
-    speed: 1000
+    speed: 100
     damage: 3000
     hitsize: 7
     hitEffect: flakExplosion
@@ -58,7 +58,7 @@ ammo: {
   thorium: {
     type: BasicBulletType
     lifetime: 9999
-    speed: 1000
+    speed: 100
     damage: 6000
     hitsize: 8
     hitEffect: flakExplosion
@@ -70,7 +70,7 @@ ammo: {
   silicon: {
     type: ArtilleryBulletType
     lifetime: 9999
-    speed: 1000
+    speed: 100
     damage: 4000
     hitsize: 7
     hitEffect: flakExplosion
@@ -84,7 +84,7 @@ ammo: {
   plastanium: {
     type: ArtilleryBulletType
     lifetime: 9999
-    speed: 1000
+    speed: 100
     damage: 3500
     hitsize: 7
     hitEffect: plasticExplosion
@@ -101,7 +101,7 @@ ammo: {
       hitsize: 2.3
       hitEffect: plasticExplosion
       despawnEffect: none
-      knockback: 1.84
+      knockback: 1.83
       bulletShrink: 1
       frontColor: plastaniumFront
       backColor: plastaniumBack
@@ -114,13 +114,13 @@ ammo: {
   surge-alloy: {
      type: BasicBulletType
      lifetime: 9999
-     speed: 1000
+     speed: 100
      damage: 5500
      hitsize: 8
      hitEffect: flakExplosion
      shootEffect: shootBig
      knockback: 7.5
-     status: shocked
+     status: shock
      bulletWidth: 16
      bulletHeight: 23
    }
@@ -142,7 +142,7 @@ ammo: {
    pyratite: {
      type: ArtilleryBulletType
      lifetime: 9999
-     speed: 1000
+     speed: 100
      damage: 4500
      hitsize: 7
      hitEffect: blastExplosion
