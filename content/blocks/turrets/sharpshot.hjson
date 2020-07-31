@@ -29,24 +29,25 @@ requirements: [
 ]
 category: turret
 layer: turret
-shootEffect: shootBigSmoke2
+shootEffect: shootBig
 ammoUseEffect: shellEjectBig
-shootSound: explosionbig
+shootSound: explosion
 range: 400
 reload: 300
 recoil: 6
 restitution: 4
-shootCone: 5
+shootCone: 1
 cooldown: 4
-shootShake: 10
+shootShake: 20
 coolantMultiplier: 0
+maxAmmo: 1
 ammo: {
   graphite: {
     type: ArtilleryBulletType
     lifetime: 9999
     speed: 100
     damage: 3000
-    hitsize: 14
+    hitsize: 7
     hitEffect: flakExplosion
     shootEffect: shootBig
     knockback: 5
@@ -59,7 +60,7 @@ ammo: {
     lifetime: 9999
     speed: 100
     damage: 6000
-    hitsize: 16
+    hitsize: 8
     hitEffect: flakExplosion
     shootEffect: shootBig
     knockback: 8
@@ -71,7 +72,7 @@ ammo: {
     lifetime: 9999
     speed: 100
     damage: 4000
-    hitsize: 14
+    hitsize: 7
     hitEffect: flakExplosion
     shootEffect: shootBig
     knockback: 6
@@ -85,7 +86,7 @@ ammo: {
     lifetime: 9999
     speed: 100
     damage: 3500
-    hitsize: 14
+    hitsize: 7
     hitEffect: plasticExplosion
     shootEffect: shootBig
     knockback: 5.5
@@ -97,7 +98,7 @@ ammo: {
       lifetime: 2
       speed: 40
       damage: 1000
-      hitsize: 4.6
+      hitsize: 2.3
       hitEffect: plasticExplosion
       despawnEffect: none
       knockback: 1.83
@@ -115,11 +116,11 @@ ammo: {
      lifetime: 9999
      speed: 100
      damage: 5500
-     hitsize: 16
+     hitsize: 8
      hitEffect: flakExplosion
      shootEffect: shootBig
      knockback: 7.5
-     status: shocking
+     status: shocked
      bulletWidth: 16
      bulletHeight: 23
    }
@@ -131,7 +132,7 @@ ammo: {
      hitsize: 8
      hitEffect: blastExplosion
      shootEffect: shootBig
-     knockback: 14
+     knockback: 7
      collidesTiles: false
      bulletWidth: 16
      bulletHeight: 23
@@ -143,7 +144,7 @@ ammo: {
      lifetime: 9999
      speed: 100
      damage: 4500
-     hitsize: 14
+     hitsize: 7
      hitEffect: blastExplosion
      shootEffect: shootBig
      knockback: 6.5
