@@ -41,8 +41,8 @@ coolantMultiplier: 0.6
 ammo: {
   graphite: {
     type: BasicBulletType
-    lifetime: 4
-    speed: 60
+    lifetime: 8
+    speed: 30
     damage: 30
     hitSize: 8
     hitEffect: explosion
@@ -55,8 +55,8 @@ ammo: {
   }
   thorium: {
     type: BasicBulletType
-    lifetime: 4
-    speed: 60
+    lifetime: 8
+    speed: 30
     damage: 50
     hitSize: 8
     hitEffect: explosion
@@ -69,8 +69,8 @@ ammo: {
   }
   pyratite: {
     type: BasicBulletType
-    lifetime: 4
-    speed: 60
+    lifetime: 8
+    speed: 30
     damage: 40
     hitSize: 8
     hitEffect: blastExplosion
