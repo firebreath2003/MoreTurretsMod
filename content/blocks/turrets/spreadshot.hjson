@@ -2,8 +2,16 @@ type: ItemTurret
 name: Spreadshot
 description: A massive burst cannon. Spreads large projectiles around. Targets both air and ground units. Generally good against swarms of enemies.
 hasItems: true
-itemCapacity: 15
+itemCapacity: 20
 liquidCapacity: 20
+consumes: {
+  liquid: {
+    liquid: cryofluid
+    amount: 1.5
+  }
+  optional: true
+  booster: true
+}
 update: true
 solid: true
 health: 2840
@@ -14,16 +22,16 @@ requirements: [
   copper/400
   graphite/300
   thorium/225
-  plastanium/150
+  plastanium/175
   surge-alloy/225
 ]
 category: turret
 layer: turret
 ammoUseEffect: shellEjectBig
 shootSound: shootBig
-range: 280
+range: 240
 reload: 3
-inaccuracy: 25
+inaccuracy: 20
 recoil: 3
 restitution: 0.1
 shootShake: 3
