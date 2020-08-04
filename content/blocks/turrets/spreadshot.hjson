@@ -2,7 +2,7 @@ type: ItemTurret
 name: Spreadshot
 description: A massive burst cannon. Spreads large projectiles around. Targets both air and ground units. Generally good against swarms of enemies.
 hasItems: true
-liquidCapacity: 15
+liquidCapacity: 30
 consumes: {
   liquid: {
     liquid: cryofluid
