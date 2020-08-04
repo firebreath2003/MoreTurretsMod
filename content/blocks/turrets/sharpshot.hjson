@@ -3,7 +3,7 @@ name: Sharpshot
 description: A massive artillery turret. Shoots a large and shredding projectile over a long period. Requires cryofluid as a coolant.
 hasItems: true
 hasLiquids: true
-liquidCapacity: 25
+liquidCapacity: 30
 consumes: {
   liquid: {
     liquid: cryofluid
