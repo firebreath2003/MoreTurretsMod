@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Sharpshot
-description: A massive artillery turret. Shoots a large and shredding projectile over a long period. Requires cryofluid as a coolant.
+description: A massive artillery cannon. Shoots a large and shredding projectile over a long period. Requires cryofluid as a coolant.
 hasItems: true
 hasLiquids: true
 liquidCapacity: 50
@@ -20,11 +20,13 @@ group: turrets
 priority: turret
 outlineIcon: true
 requirements: [
-  copper/300
-  lead/400
-  graphite/350
-  silicon/300
-  surge-alloy/300
+  copper/750
+  lead/750
+  graphite/625
+  thorium/500
+  silicon/625
+  phase-fabric/375
+  surge-alloy/375
 ]
 category: turret
 layer: turret
@@ -34,11 +36,9 @@ ammoUseEffect: shellEjectBig
 shootSound: explosionbig
 range: 400
 reload: 300
-recoil: 3
-restitution: 0.1
-rotatespeed: 10
-shootCone: 1
-shootShake: 6
+rotatespeed: 0.5
+shootCone: 5
+shootShake: 4
 targetsAir: false
 ammo: {
   graphite: {
