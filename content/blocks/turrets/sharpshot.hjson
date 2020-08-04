@@ -39,7 +39,6 @@ restitution: 0.1
 rotatespeed: 10
 shootCone: 1
 shootShake: 6
-coolantMultiplier: 0
 targetsAir: false
 ammo: {
   graphite: {
@@ -53,7 +52,7 @@ ammo: {
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     hitSound: explosion
-    knockback: 4
+    knockback: 12
     bulletWidth: 16
     bulletHeight: 23
   }
@@ -68,7 +67,7 @@ ammo: {
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     hitSound: explosion
-    knockback: 8
+    knockback: 20
     bulletWidth: 16
     bulletHeight: 23
   }
@@ -83,7 +82,7 @@ ammo: {
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     hitSound: explosion
-    knockback: 6
+    knockback: 16
     status: burning
     bulletWidth: 16
     bulletHeight: 23
