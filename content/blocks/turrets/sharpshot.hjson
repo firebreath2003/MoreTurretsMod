@@ -25,8 +25,9 @@ requirements: [
   graphite/625
   thorium/500
   silicon/625
+  plastanium/375
   phase-fabric/375
-  surge-alloy/375
+  surge-alloy/250
 ]
 category: turret
 layer: turret
