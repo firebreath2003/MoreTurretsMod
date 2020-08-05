@@ -18,11 +18,13 @@ size: 4
 group: turrets
 priority: turret
 requirements: [
-  copper/400
-  graphite/300
-  thorium/225
-  plastanium/175
-  surge-alloy/225
+  copper/750
+  lead/750
+  graphite/625
+  thorium/500
+  silicon/625
+  plastanium/500
+  surge-alloy/375
 ]
 category: turret
 layer: turret
@@ -33,9 +35,7 @@ shootSound: shootBig
 range: 240
 reload: 3
 inaccuracy: 20
-recoil: 3
-restitution: 0.1
-shootShake: 3
+shootShake: 4
 xRand: 7.5
 coolantMultiplier: 0.6
 ammo: {
